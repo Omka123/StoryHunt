@@ -112,6 +112,7 @@ html {
 .about-us-fonts-bold {
     font-size: 1.5rem !important;
     font-weight: bold;
+    color:white;
 }
 .about-us-para{
     font-size: 0.5rem !important;
@@ -324,6 +325,7 @@ html {
     .about-us-fonts-bold {
         font-size: 3.5rem !important;
         font-weight: bold;
+        color:white !important;
     }
     .about-us-para{
         font-size: 2rem !important;
