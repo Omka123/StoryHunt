@@ -1,0 +1,321 @@
+/* General Styles */
+* {
+    font-family: 'Urbanist', sans-serif;
+}
+
+:root {
+    /* Scroll Bar Colors */
+    --scroll-bar-color: #C5CADF;
+    --scroll-thumb-color: #70768A;
+    --scroll-thumb-hover-color: #454F6B;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+    width: .5rem; /* Modified: Converted from px to rem */
+    background: var(--scroll-bar-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scroll-thumb-color);
+    border-radius: 0.2em; /* Modified: Converted from px to rem */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--scroll-thumb-hover-color);
+}
+
+/* Navigation Styles */
+.nav-logo {
+    width: 7.5rem; /* Modified: Converted from px to rem */
+    height: 4.375rem; /* Modified: Converted from px to rem */
+}
+
+.navbar-nav .nav-item .nav-link {
+    border-radius: 1.25rem; /* Modified: Converted from px to rem */
+}
+
+.nav-font {
+    font-family: 'Urbanist', sans-serif !important;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.navbar-nav .nav-item .nav-link {
+    transition: background-color 0.3s, color 0.3s, padding 0.3s;
+    padding: 0.3125rem; /* Modified: Converted from px to rem */
+}
+
+
+.navbar-nav .nav-item:hover .nav-link {
+    color: #2061F2 !important;
+}
+.nav-link-contact{
+    background:black;
+    color: white !important;
+    text-decoration: none !important;
+    padding: .3rem 1.2rem .3rem 1.2rem;
+}
+/* Container Styles */
+.container-top-space {
+    margin-top: 10%;
+}
+
+/* Banner Styles */
+.banner-header-text {
+    font-size: 4rem;
+    margin-bottom: 0;
+    font-weight: 900;
+    line-height: 65px;
+    color: #000;
+}
+
+.home-img {
+    border-radius: 1.25rem; /* Modified: Converted from px to rem */
+}
+
+.B2B_bg {
+    background-color: #000;
+    border-radius: 1.25rem; /* Modified: Converted from px to rem */
+    margin-top: 15%;
+}
+
+.header-para {
+    color: #000 !important;
+    font-size: 1.3rem !important;
+}
+
+.banner-text {
+    font-size: 52px;
+}
+
+/* About Us Styles */
+.about-us {
+    background-color: #191E28;
+    border-radius: 0.9375rem; /* Modified: Converted from px to rem */
+    padding: 5% 10% !important;
+}
+
+.about-us h5 {
+    font-size: 2.4rem !important;
+}
+
+.about-us hr {
+    border: 0.0625rem solid white; /* Modified: Converted from px to rem */
+    opacity: 1;
+}
+
+.about-us .fonts-section1 {
+    font-size: 1.5rem !important;
+}
+
+
+/* Featured Work Styles */
+.featured-work h5 {
+    font-size: 2rem;
+    font-weight: bolder !important;
+}
+
+.featured-work-img {
+    border-radius: 0.9375rem; /* Modified: Converted from px to rem */
+}
+
+.featured-work-text {
+    font-weight: 600 !important;
+}
+
+/* B2B and B2C Videos Styles */
+.B2B-text {
+    font-size: 17px;
+}
+
+/* What They Say About Us Styles */
+.about-us-slider h5 {
+    font-size: 2.5rem !important;
+    font-weight: 900 !important;
+}
+
+.about-us-slider hr {
+    opacity: .5;
+}
+
+.about-us-slider p {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.arrow-bg {
+    background-color: #191E28 !important;
+    border: none !important;
+    padding: 0.625rem 0.9375rem !important; /* Modified: Converted from px to rem */
+}
+
+#comment {
+    height: 5rem !important; /* Modified: Converted from px to rem */
+}
+
+/* Social Media Styles */
+.social-text {
+    font-size: 1.875rem !important; /* Modified: Converted from px to rem */
+    font-weight: 900 !important;
+}
+
+.insta {
+    background: linear-gradient(to right, #FF312C, #FFB131);
+}
+
+/* Contact Us Styles */
+.contact p,
+.service s {
+    color: black;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Urbanist', sans-serif;
+    border: none;
+}
+
+.contactform .contactform-field input {
+    padding: 3.125rem !important; /* Modified: Converted from px to rem */
+    border: none;
+}
+
+.contact-textarea,
+.service-gradient {
+    border-radius: 0.9375rem; /* Modified: Converted from px to rem */
+    border: none;
+}
+
+.contact-gradient,
+.blue-bg,
+.service-bg {
+    border: none;
+    border-radius: 0.625rem; /* Modified: Converted from px to rem */
+}
+
+#dropdown1 option {
+    border-radius: 0.625rem; /* Modified: Converted from px to rem */
+    background: #007BFF;
+    color: white;
+    border: none;
+}
+
+.btn-btnsubmit {
+    align-items: end;
+}
+
+.footer-head,
+.footer-para {
+    font-family: 'Urbanist', sans-serif !important;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+.contact.dropdown,
+.blue-bg {
+    background-color: #2061F2;
+    color: white;
+}
+
+/* Work Styles */
+.work ul li,
+.work ul li p {
+    display: inline-block;
+}
+
+.work ul li p:hover {
+    display: inline-block;
+    color: #fff !important;
+    background-color: #000;
+    border-radius: 0.9375rem; /* Modified: Converted from px to rem */
+    padding: 0.5rem 0.9375rem; /* Modified: Converted from px to rem */
+}
+
+/* Got an Idea Styles */
+.got_an_idea {
+    margin-top: 7%;
+    margin-bottom: 7%;
+    border-radius: 0.9375rem; /* Modified: Converted from px to rem */
+}
+
+/* Service Styles */
+.service_1 p {
+    color: black;
+    font-family: 'Urbanist', sans-serif;
+    border: none;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.container-width {
+    width: 30% !important;
+}
+
+
+
+/* Mobile View */
+/* Mobile View */
+@media only screen and (max-width: 768px) {
+    /* Navigation Styles for Mobile */
+    .navbar-nav {
+        text-align: center; /* Center align the navigation links */
+    }
+
+    .navbar-nav .nav-item {
+        display: block;
+        margin-bottom: 10px; /* Add some spacing between each navigation item */
+    }
+
+    .navbar-collapse {
+        display: none;
+        text-align: center;
+        background-color: #fff;
+        position: absolute;
+        top: 10rem;
+        left: 1rem;
+        right: 1rem;
+        padding: 1rem;
+        z-index: 1000;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    
+    .navbar-collapse.show {
+        display: block;
+    }
+
+    .navbar-collapse.show {
+        display: block; /* Show the navigation links when the menu is open */
+        opacity: 1; /* Fade in by setting opacity to 1 */
+        transform: translateY(0); /* Slide down by resetting the translation */
+    }
+
+    .navbar-collapse .nav-item {
+        margin: 10px 0; /* Add spacing between each navigation item in mobile view */
+    }
+
+    .navbar-collapse .nav-link {
+        padding: 10px; /* Add padding to each navigation link in mobile view */
+        border-radius: 5px; /* Add a bit of border-radius for styling */
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    /* Adjust container width and font sizes for 2k screens */
+    .about-us h5{
+        font-size: 5.5rem !important; 
+    }
+}
+
+@media only screen and (min-width: 3840px) {
+    /* Adjust container width and font sizes for 4k screens */
+    
+}
