@@ -315,7 +315,7 @@ html {
     }
 }
 
-@media only screen and (min-width: 2560px) {
+@media only screen and (min-width: 2550px) {
     /* Adjust container width and font sizes for 2k screens */
     .about-us h5{
         font-size: 5.5rem !important; 
