@@ -142,6 +142,9 @@ html {
 .B2B-video{
     font-size: 1.5rem !important;
 }
+.B2B-btn{
+    font-size: 2rem !important;
+}
 /* What They Say About Us Styles */
 .about-us-slider h5 {
     font-size: 2.5rem !important;
@@ -336,6 +339,9 @@ html {
     }
     .B2B-video{
         font-size: 3.5rem !important;
+    }
+    .B2B-btn{
+        font-size: 2rem !important;
     }
     
 }
